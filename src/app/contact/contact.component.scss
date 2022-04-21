@@ -1,0 +1,29 @@
+.contact {
+    padding-top: 20px;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: bisque;
+}
+
+.icon-email {
+    max-width: 30px;
+}
+
+.icon-li {
+    max-width: 30px;
+    align-self: center;
+}
+
+.icon-git {
+    max-width: 30px;
+}

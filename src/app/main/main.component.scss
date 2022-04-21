@@ -1,0 +1,76 @@
+.container {
+    background-color: #202020;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.body {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+}
+
+.body-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.body-image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.greeting,
+.profession,
+.name {
+    color: #fff;
+}
+
+.name {
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.profession {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.navbar-items {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+.image {
+    width: 70%;
+    border: 2px solid #fff;
+}
+
+.content {
+    height: 200px;
+}

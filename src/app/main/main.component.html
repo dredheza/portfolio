@@ -1,0 +1,26 @@
+<div class="container">
+
+    <div *ngIf="loading">
+
+    </div>
+
+
+
+    <div *ngIf="!loading" class="body focus-in-contract">
+        <div class="body-image">
+            <img class="image" src="../assets/d1.jpg" alt="">
+        </div>
+        <div class="body-text">
+            <div class="name ">DREDHËZA SELIMAJ</div>
+            <div class="profession"> frontend developer</div>
+            <div class="content">
+                <div class="navbar">
+                    <div class="navbar-items" *ngFor="let item of navbar" [ngClass]="{'active' : item.path === activeTab}" (click)="onNavItemChange(item)">{{item.title}}
+                    </div>
+                </div>
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+
+    </div>
+</div>
